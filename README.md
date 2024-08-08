@@ -1,16 +1,23 @@
-# iesb_college
+# Atividade de conclusão da disciplina - Topicos Especiais em aplicativos moveis - Flutter II
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Cruds
+#### Cadastro de disciplinas
+- Deve conter a informação se é semestral (possui 2 bimestres/notas) ou anual (possui 4 bimestres/notas)
+- Lançamento de notas por disciplina
+- A média deve ser calculada baseada no tipo do curso (semestral ou anual)
+- Cadastro de notas
+- Regra para aprovação: obter pelo menos 5,0 pontos (50%) de média final
+- Listar todas as disciplinas, com a média e exibindo se etá aprovado ou reprovado.
+- 
+- 
+#### Requisitos técnicos:
+- Utilizar o MobX ou algum outro gerenciador de estado
+- Utilizar o SQLite ou algum outro meio de salvar a informação locais no celular;

@@ -10,11 +10,28 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
+  flutter_modular: ^6.3.4
+  mobx: ^2.3.3+2
+  flutter_mobx: ^2.2.1+1
+  shared_preferences: ^2.2.3
+  dio: ^5.4.3+1
+  google_fonts: ^6.2.1
+  sqflite: 
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  build_runner: ^2.4.11
+  mobx_codegen: ^2.6.1
+
+vars:
+  runner: flutter pub run build_runner
+
+scripts:
+  mobx_build: $runner build --delete-conflicting-outputs
+  mobx_watch: $runner watch --delete-conflicting-outputs #usar quando estiver desenvolvendo
 
 flutter:
 
